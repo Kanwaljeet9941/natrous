@@ -37,7 +37,7 @@
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     z-index: 100;
     box-shadow: 0 1rem 3rem rgba($color-black, .1);
-    transition: transform .7s cubic-bezier(0,.4,1,.71);
+    transition: transform .7s cubic-bezier(0.86, 0, 0.07, 1);
     // transform: scale(80);
     @include respond(tab-port){
       top: 4.5rem;
